@@ -1,5 +1,9 @@
 {
+  "scripts": {
+    "http-server": "http-server --gzip --silent --ssl --cert ../server.crt --key ../server.key -p 443"
+  },
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "http-server": "^0.11.1"
   }
 }
